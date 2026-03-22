@@ -18,7 +18,7 @@ jobs:
       
       - name: Compile DLL
         run: |
-          cl.exe /EHsc /LD /MT /O2 /Fe:cheat.dll dllmain.cpp
+          cl.exe /EHsc /LD /MT /O2 /Fe:cheat.dll dll-cs2-cheat.cpp
       
       - name: Upload artifact
         uses: actions/upload-artifact@v4
